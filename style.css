@@ -145,7 +145,7 @@ header img {
   text-shadow: 0 0 0.2em rgba(0,0,0,1);
 }
 
-#a1 {
+/* #a1 {
   display: block;
   padding: 10px;
   margin: 30px 160px;
@@ -156,7 +156,9 @@ header img {
   display: block;
   padding: 10px;
   margin: 10px 160px;
-}
+} */
+
+
 
 #section2 {
  height: 350px;
@@ -172,44 +174,47 @@ header img {
   text-shadow: 0 0 0.2em rgba(0,0,0,1);
 }
 
-
-#arrow {
+button {
+  padding: 15px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
   position: relative;
-  width: 100px;
-  margin: 0 auto;
-}
-#arrow::before {
-  animation: arrow 2.5s infinite;
-  border: solid greenyellow;
-  border-width: 0 0 10px 10px;
+  font-weight: 1000;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+ }
+ 
+ button::before {
   content: "";
-  margin: auto;
   position: absolute;
-  top: -64px;
-  left: 25px;
-  transform: rotate(-45deg);
-  width: 35px;
-  height: 35px;
-}
-#att{
-  font-size:40px;
-  font-weight:bold;
-  color: black;
-}
-@keyframes arrow {
-  0% {
-    transform: rotate(-45deg) translate(0, 0);
-  }
-  60% {
-    transform: rotate(-45deg) translate(-30px, 30px);
-  }
-  0%, 60%, 100% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-}
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+ 
+ button:hover {
+  color: #e8e8e8;
+ }
+ 
+ button:hover::before {
+  width: 100%;
+ }
+
+
+
+
 
 #section3 {
   height: 800px;
@@ -241,8 +246,7 @@ footer {
   display: flex;
   justify-content: space-between;
   height: 250px;
-  background-color: darkgray;
-  opacity: 0.3;
+  background-color: #cccccc;
 }
 
 #footer-left {
@@ -260,6 +264,7 @@ footer {
 #footer li a {
     color: black;
     opacity: 1;
+    color: black;
 }
 
 #footer-right {
