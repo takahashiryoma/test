@@ -39,10 +39,44 @@
            </ul>
           <ul id="section1ul2">
             <li>2</li>
-            <li><a href="">Likes</a></li>
-          </ul>
-        </div>
+            <li><a type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="">Likes</a></li>
 
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Liked by</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+       <div class="modal-body">
+
+        <div id="profile-right">
+
+          <div id="following"> 
+             <ul>
+               <li id="followingli1"><img src="profilepicture.png" alt="プロフィール画像"></li>
+               <li id="followingli2"><p>名前</p></li>
+             </ul>
+          </div>
+
+          <div id="followers">
+             <a class="btn btn-primary" href="">Following</a>
+          </div>
+
+      </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">とじる</button>
+      </div>
+    </div>
+  </div>
+</div>
+</ul>
+</div>
+
+    
         <div id="profile-right">
 
             <div id="profile-right-right">

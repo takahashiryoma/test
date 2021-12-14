@@ -238,3 +238,28 @@ footer {
     height: 80px;
 }
 
+
+
+#staticBackdrop {
+  margin-top: 300px;
+}
+
+#profile-right {
+  display: flex;
+}
+
+#following ul{
+  display: flex;
+}
+
+#followingli1 {
+  margin-right: 50px;
+}
+
+#followers {
+  margin-left: 200px;
+}
+
+#followingli2 {
+  margin-top: 10px;
+}
