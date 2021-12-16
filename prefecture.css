@@ -137,8 +137,9 @@ header img {
 }
 
 #second {
-  margin-left: 360px;
+  margin: auto;
   margin-bottom: 200px;
+ 
 }
 
 #second img{
@@ -147,9 +148,17 @@ header img {
 }
 
 
-#third {
-  margin-left: 660px;
+#a3 {
+  margin-left: 550px;
   margin-bottom: 150px;
+  padding: 0px 30px;
+  height: 50px;
+  width: 200px;
+  line-height: 50px;
+  background-color: rgb(114 137 218);
+  border-radius: 25px;
+  text-decoration: none;
+  text-align: center;
 }
 
 #fourul {
@@ -165,18 +174,6 @@ header img {
 #fourul li {
   margin-left: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

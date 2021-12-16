@@ -236,8 +236,15 @@ button {
 }
 
 #a3 {
-  padding: 5px 30px;
+  padding: 0px 30px;
   margin-top: -330px;
+  height: 50px;
+  width: 200px;
+  line-height: 50px;
+  background-color: rgb(114 137 218);
+  border-radius: 25px;
+  text-decoration: none;
+  text-align: center;
 }
 
 
